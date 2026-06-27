@@ -19,13 +19,13 @@ this pipeline automates the investigation step.
 - Emerging Threats compromised IP blocklist
 - Libraries: requests, csv
 
-![AbuseIPDB Verification](Screenshot%202026-06-27%20083106.png)
+![AbuseIPDB Verification](AbuseIPDB_verification.png)
 ## Sample Output
 | IP | Score | Reports | ISP | Country | isTor |
 |---|---|---|---|---|---|
 | 100.23.75.120 | 100 | 42 | Amazon.com | US | False |
 
-![CSV Output](Screenshot%202026-06-27%20083502.png)
+![CSV Output](csv_output.png)
 ## Findings
 Cross-referenced 10 IPs from the Emerging Threats compromised blocklist against 
 AbuseIPDB all 10 returned a confidence score of 100, independently confirming 
