@@ -24,6 +24,7 @@ this pipeline automates the investigation step.
 | IP | Score | Reports | ISP | Country | isTor |
 |---|---|---|---|---|---|
 | 100.23.75.120 | 100 | 42 | Amazon.com | US | False |
+
 ![CSV Output](Screenshot%202026-06-27%20083502.png)
 ## Findings
 Cross-referenced 10 IPs from the Emerging Threats compromised blocklist against 
