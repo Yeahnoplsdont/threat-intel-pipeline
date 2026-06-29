@@ -50,14 +50,14 @@ indicators to analyze the whole picture.
 - Lambda automation to auto-block high-confidence IPs via AWS security groups
 
 ## Lambda Automation
-
+![Auto_blocked](auto_blocked.png)
 -Extended the pipeline into AWS with a serverless Lambda function that;
   - Queries each IP against AbuseIPDB automatically
   - Auto block high-confidence threats (score >80) via EC2 security group rules
   - Routes cloud provider IPs (Amazon, Google, Microsoft) to SNS email alerts 
   for manual review in order to avoided blocking legitimate infrastructure 
   - Skips duplicate block attempts gracefully for repeated runs
-
+![Log events](autoblock_logs.png)
 ### Results
 
 - 9 IPs auto-blocked via security group rules
