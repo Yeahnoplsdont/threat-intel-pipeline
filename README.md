@@ -57,7 +57,9 @@ indicators to analyze the whole picture.
   - Routes cloud provider IPs (Amazon, Google, Microsoft) to SNS email alerts 
   for manual review in order to avoided blocking legitimate infrastructure 
   - Skips duplicate block attempts gracefully for repeated runs
+
 ![Log events](autoblock_logs.png)
+
 ### Results
 
 - 9 IPs auto-blocked via security group rules
